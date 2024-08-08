@@ -106,7 +106,7 @@ background: linear-gradient(0.24turn, rgba(255, 255, 255, 1) 0%, rgba(139, 139, 
 } */
 
 .title_block {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .title {
@@ -142,7 +142,7 @@ background: linear-gradient(0.24turn, rgba(255, 255, 255, 1) 0%, rgba(139, 139, 
 
 .ads_block {
     position: relative;
-    top: -120px;
+    top: -140px;
     height: 375px;
     border: 1px solid rgba(255, 191, 115, 1);
     /* margin-top: 30px; */
@@ -656,7 +656,7 @@ background: linear-gradient(0.24turn, rgba(255, 255, 255, 1) 0%, rgba(139, 139, 
     width: 300px;
     position: relative;
     z-index: 2;
-    top: -120px;
+    top: -140px;
     background-image: url(images/author5.png);
     background-size: cover;
     left: -30px;
