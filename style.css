@@ -127,6 +127,7 @@ background: linear-gradient(0.24turn, rgba(255, 255, 255, 1) 0%, rgba(139, 139, 
     background-color: rgba(250, 66, 66, 0.89);
     border-radius: 20px;
     margin: 0 auto;
+    margin-top: 10px;
     text-transform: uppercase;
     color: white;
     display: flex;
@@ -141,7 +142,7 @@ background: linear-gradient(0.24turn, rgba(255, 255, 255, 1) 0%, rgba(139, 139, 
 
 .ads_block {
     position: relative;
-    top: -50px;
+    top: -120px;
     height: 375px;
     border: 1px solid rgba(255, 191, 115, 1);
     /* margin-top: 30px; */
@@ -641,7 +642,7 @@ background: linear-gradient(0.24turn, rgba(255, 255, 255, 1) 0%, rgba(139, 139, 
 
 
 /* Ava */
-.autor_ava {
+/* .autor_ava {
     height: 350px;
     width: 300px;
     position: relative;
@@ -649,6 +650,16 @@ background: linear-gradient(0.24turn, rgba(255, 255, 255, 1) 0%, rgba(139, 139, 
     top: -45px;
     background-image: url(images/author4.PNG);
     background-size: cover;
+} */
+.autor_ava {
+    height: 370px;
+    width: 300px;
+    position: relative;
+    z-index: 2;
+    top: -120px;
+    background-image: url(images/author5.png);
+    background-size: cover;
+    left: -30px;
 }
 
 .ava_container {
@@ -660,8 +671,8 @@ background: linear-gradient(0.24turn, rgba(255, 255, 255, 1) 0%, rgba(139, 139, 
     margin: 20px;
     color: white;
     font-style:italic;
-    top: 150px;
-    left: 20px;
+    top: 230px;
+    left: 50px;
 }
 
 .ava_container::after {
